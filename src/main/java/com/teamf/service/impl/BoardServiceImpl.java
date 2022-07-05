@@ -21,7 +21,7 @@ import com.teamf.mapper.BoardPostMapper;
 import com.teamf.repository.BoardPostRepository;
 import com.teamf.repository.BoardRepository;
 import com.teamf.service.BoardService;
-//화이팅!! 222
+//화이팅!! 222 333
 @Service("boardService")
 public class BoardServiceImpl implements BoardService {
 	
