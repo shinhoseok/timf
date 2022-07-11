@@ -41,7 +41,7 @@ import com.teamf.dto.UserDto;
 @PropertySource(value = {"classpath:/application.yml"})
 public class JpaConfig {
 	
-	@Value("${spring.jpa.database-platform}")
+	@Value("${spring.jpa.database-platform}")   
 	private String dialect;
 	@Value("${spring.jpa.show_sql:true}")
 	private String showSql;
